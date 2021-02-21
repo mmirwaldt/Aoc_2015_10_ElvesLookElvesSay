@@ -44,6 +44,6 @@ public class LookAndSaySequencerTest {
     @ParameterizedTest
     @MethodSource("lookAndSaySequencer")
     void test_sequence_fiveApplications(LookAndSaySequencer lookAndSaySequencer) {
-        assertEquals("1113213211", lookAndSaySequencer.sequenceLookAndSay("11", 5));
+        assertEquals("13112221", lookAndSaySequencer.sequenceLookAndSay("11", 5));
     }
 }
