@@ -1,4 +1,4 @@
-package net.mirwaldt;
+package net.mirwaldt.aoc.year2015.day10;
 
 public class LookAndSaySequencerMain {
     public static void main(String[] args) {
